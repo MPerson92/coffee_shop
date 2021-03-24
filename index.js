@@ -17,26 +17,6 @@ button.classList.add();
 
 
 
-var eatsDrinks = document.getElementById("eatsDrinks")
-eatsDrinks.classList.add("eatsDrinks");
-
-const add = document.getElementById("button")
-add.onclick = function (){
-    var coffee 
-    document.getElementById("num1").value
-    var tea
-    document.getElementById("num2").value
-    var bagel
-    document.getElementById("num3").value
-
-    var result = document.getElementById("result")
-    result.textContent = ((tea * 5) + (coffee * 7) + (bagel * 4)) 
-}
-
-button.classList.add()
-
-
-
 
 
 
