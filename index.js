@@ -13,10 +13,9 @@ add.onclick = function (){
 
     var result = document.getElementById("result")
     result.textContent = ((tea * 5) + (coffee * 7) + (bagel * 4)) 
-    
-
 }
 
+button.classList.add()
 
 
 
