@@ -1,1 +1,38 @@
-
+* { 
+	box-sizing: border-box;
+}
+html, body {
+	min-height: 100%;
+	background: rgb(255, 255, 255);
+	color: #000;
+    text-align: left;
+}
+body {
+	font-size: 1.4rem;
+	text-rendering: optimizeLegibility;
+}
+body, ul {
+	margin: 0;
+}
+h1 {
+    font-size: 2.8rem;
+    color: #000;
+    text-align: left;
+}
+footer {
+	display: block; 
+}
+img { 
+	border: none;
+	max-width: 100%;
+}
+button {
+    background-color: #dd1919;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
