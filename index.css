@@ -1,65 +1,78 @@
 * { 
 	box-sizing: border-box;
 }
+
 html {
 	min-height: 100%;
-	background: slategray;
 	color: rgb(0, 0, 0);
     text-align: center;
     font-family: monospace;
 }
+
 body {
-	text-rendering: optimizeLegibility;
-    margin: auto;
+    background-image: url("coffeebeans-1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1 {
+    display: inline-flexbox;
     padding: 20px;
     font-size: 40px;
-    color: rgb(0, 0, 0);
+    color: red;
     text-align: center;
-    background-color: steelblue;
+    text-decoration: underline;
 }
+
 .menu {
     font-size: 35px;
-    float: left;
+    float: center;
     width: 100%;
     padding: 10px;
-    background-color: tomato;
+    text-decoration: underline;
 }
+
 ul {
     list-style-type: none;
-    padding: 0;
     border: 2px solid black;
     background-color: whitesmoke;
+    text-decoration: underline;
 }
+
 li {
     height: 32px;
     line-height: 32px;
-    padding: 0, 10px, 10px, 0;
     font-size: 30px;
+    color: black;
 }
+
 h3 {
     font-size: 30px;
     padding: 5px;
     float: center;
+    text-decoration: underline;
+    color: chartreuse;
 }
+
 input[type=number]{
     width: 200px;
     height: 40px;
 }
+
 #result {
     font-size: 25px;
     padding: 5px;
     float: center;
     text-decoration: bold;
+    color: white;
 }
+
 img { 
-	border: none;
-	max-width: 100%;
-    text-align: center;
-    float: center;
+	width: 20%;
+    height: 20%;
+    align-items: center;
 }
+
 button {
     background-color:rgb(53, 146, 221);
     border: none;
@@ -70,22 +83,115 @@ button {
     display: inline-block;
     font-size: 16px;
 }
+
 footer {
 	display: block;
-    background-color: steelblue;
+    color: chartreuse;
     padding: 10px;
     text-align: left;
     font-size: 20px;
 }
-@media only screen and (max-width: 700px){
-    .menu, .tea, .coffee, .bagel {
-        flex-direction: row;
-        width: 100%;
-        background: whitesmoke;
+
+a {
+    color: lightblue;
+}
+
+@media only screen and (max-width: 768px){
+    * { 
+        box-sizing: border-box;
     }
-    ul {
-        flex-direction: row;
+    
+    html {
+        min-height: 100%;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-family: monospace;
+    }
+    
+    body {
+        background-image: url("coffeebeans-1.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    h1 {
+        display: inline-flexbox;
+        padding: 20px;
+        font-size: 40px;
+        color: red;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    .menu {
+        font-size: 35px;
+        float: center;
         width: 100%;
-        background: whitesmoke;
+        padding: 10px;
+        text-decoration: underline;
+    }
+    
+    ul {
+        list-style-type: none;
+        border: 2px solid black;
+        background-color: purple;
+        text-decoration: underline;
+    }
+    
+    li {
+        height: 32px;
+        line-height: 32px;
+        font-size: 30px;
+        color: black;
+    }
+    
+    h3 {
+        font-size: 30px;
+        padding: 5px;
+        float: center;
+        text-decoration: underline;
+        color: chartreuse;
+    }
+    
+    input[type=number]{
+        width: 200px;
+        height: 40px;
+    }
+    
+    #result {
+        font-size: 25px;
+        padding: 5px;
+        float: center;
+        text-decoration: bold;
+        color: white;
+    }
+    
+    img { 
+        width: 20%;
+        height: 20%;
+        align-items: center;
+    }
+    
+    button {
+        background-color:rgb(53, 146, 221);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    footer {
+        display: block;
+        color: chartreuse;
+        padding: 10px;
+        text-align: left;
+        font-size: 20px;
+    }
+    
+    a {
+        color: lightblue;
     }
 }
